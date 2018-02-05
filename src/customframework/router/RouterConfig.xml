@@ -1,0 +1,12 @@
+<router>
+	<records>
+		<record controller="TestController" function="testFunction" class="test.TestController"
+				successJsp="/views/bulk_deal.jsp" errorJsp="common/error.jsp"
+				modelClass="test.TestModel">
+		</record>
+		<record controller="BulkDealController" function="openBulkDealPage" class="modules.bulkdeal.BulkDealController"
+				successJsp="/views/bulk_deal.jsp" errorJsp="common/error.jsp"
+				modelClass="modules.bulkdeal.BulkDealModel">
+		</record>
+	</records>
+</router>
